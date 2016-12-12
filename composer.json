@@ -1,0 +1,9 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^6.2",
+        "bramus/ansi-php": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {"Tws\\": "tests/"}
+    }
+}
