@@ -15,3 +15,6 @@ Service will be available on <http://localhost:8080/>
 <http://localhost:8080/obtain_execution_lock/A>
 
 <http://localhost:8080/release_execution_lock/A>
+
+###Test execution
+Be aware you need to perform tests on host machine, not in docker container.
