@@ -6,8 +6,7 @@ To configure project you need to install [docker](https://docs.docker.com/engine
 1. `git clone https://github.com/marikn/tws.git`
 2. `cd tws/docker`
 3. `docker-compose up -d`
-4. `docker-compose exec tws-php-fpm bash`
-5. `composer update`
+4. `docker-compose exec tws-php-fpm composer update`
 
 Service will be available on <http://localhost:8080/>
 
