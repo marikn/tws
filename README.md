@@ -2,7 +2,8 @@
 Throttling API
 
 To configure project you need to install [docker](https://docs.docker.com/engine/installation) and [docker-compose](https://docs.docker.com/compose/install)
-###Project configuration
+
+### Project configuration
 1. `git clone https://github.com/marikn/tws.git`
 2. `cd tws/docker`
 3. `docker-compose up -d`
@@ -10,10 +11,10 @@ To configure project you need to install [docker](https://docs.docker.com/engine
 
 Service will be available on <http://localhost:8080/>
 
-###Examples
+### Examples
 <http://localhost:8080/obtain_execution_lock/A>
 
 <http://localhost:8080/release_execution_lock/A>
 
-###Test execution
+### Test execution
 Be aware you need to perform tests on host machine, not in docker container.
